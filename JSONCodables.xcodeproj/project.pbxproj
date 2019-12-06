@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F59D38E823980FC0008016B7 /* PetitionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F59D38E723980FC0008016B7 /* PetitionTableViewCell.xib */; };
+		F59D38EA239A3F98008016B7 /* PetitionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59D38E9239A3F98008016B7 /* PetitionDetailViewController.swift */; };
 		F5EE04EF237EBD0E00CF73F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EE04EE237EBD0E00CF73F2 /* AppDelegate.swift */; };
 		F5EE04F1237EBD0E00CF73F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EE04F0237EBD0E00CF73F2 /* SceneDelegate.swift */; };
 		F5EE04F6237EBD0E00CF73F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5EE04F4237EBD0E00CF73F2 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F59D38E723980FC0008016B7 /* PetitionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PetitionTableViewCell.xib; sourceTree = "<group>"; };
+		F59D38E9239A3F98008016B7 /* PetitionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetitionDetailViewController.swift; sourceTree = "<group>"; };
 		F5EE04EB237EBD0E00CF73F2 /* JSONCodables.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONCodables.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EE04EE237EBD0E00CF73F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5EE04F0237EBD0E00CF73F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				F5EE0502237EBDAD00CF73F2 /* PetitionTableViewController.swift */,
 				F5EE0504237EBDC200CF73F2 /* PetitionModel.swift */,
 				F5EE0506237EC65C00CF73F2 /* PetitionTableViewCell.swift */,
+				F59D38E723980FC0008016B7 /* PetitionTableViewCell.xib */,
+				F59D38E9239A3F98008016B7 /* PetitionDetailViewController.swift */,
 			);
 			path = JSONCodables;
 			sourceTree = "<group>";
@@ -99,6 +105,7 @@
 		F5EE04E3237EBD0E00CF73F2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Original;
 				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Prakhar Prakash Bhardwaj";
@@ -132,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5EE04FB237EBD1000CF73F2 /* LaunchScreen.storyboard in Resources */,
+				F59D38E823980FC0008016B7 /* PetitionTableViewCell.xib in Resources */,
 				F5EE04F8237EBD1000CF73F2 /* Assets.xcassets in Resources */,
 				F5EE04F6237EBD0E00CF73F2 /* Main.storyboard in Resources */,
 			);
@@ -149,6 +157,7 @@
 				F5EE0503237EBDAD00CF73F2 /* PetitionTableViewController.swift in Sources */,
 				F5EE0505237EBDC200CF73F2 /* PetitionModel.swift in Sources */,
 				F5EE0507237EC65C00CF73F2 /* PetitionTableViewCell.swift in Sources */,
+				F59D38EA239A3F98008016B7 /* PetitionDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 83NZ63AJ89;
+				DEVELOPMENT_TEAM = C338829J44;
 				INFOPLIST_FILE = JSONCodables/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -311,7 +320,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 83NZ63AJ89;
+				DEVELOPMENT_TEAM = C338829J44;
 				INFOPLIST_FILE = JSONCodables/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
