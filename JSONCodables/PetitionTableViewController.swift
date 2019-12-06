@@ -22,10 +22,9 @@ class PetitionTableViewController: UITableViewController {
         let nib = UINib(nibName: "PetitionTableViewCell", bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: "PetitionTableViewCell")
     }
+        
     func requestToJson() {
-        
         let urlString = "https://api.whitehouse.gov/v1/petitions.json?limit=100"
-        
         if let url = URL(string: urlString) {
             if let data = try? Data(contentsOf: url) {
                 parse(json: data)
@@ -64,7 +63,6 @@ class PetitionTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        
         return UITableView.automaticDimension
     }
     
